@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url('bgImg.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; */
+}
+
+#logo {
+    height: 40px;
+    width: 50px;
+}
+
+h1 {
+    font-family: Impact, 'Arial Narrow Bold';
+}
+
+.bgImg {
+    /* background-image: url("bgImg.jpg"); */
+    background-color: rgb(227, 227, 143);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%; Ensure the container takes full width */
+}
+
+button {
+    background-color: #ec195a;
+    border: none;
+    height: 40px;
+    width: 100px;
+    font-weight: 30px;
+    border-radius: 10px;
+}
+
+i {
+    color: #FF4191;
+
+}
+
+.active {
+    color: #FF4191 !important;
+    border-bottom: solid;
+}
+
+h2 {
+    font-family: cursive;
+    font-style: oblique;
+
+}
