@@ -1,10 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    /* background-image: url('bgImg.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed; */
+    color: white;
+    background-color: black;
 }
 
 #logo {
@@ -14,14 +12,29 @@ body {
 
 h1 {
     font-family: Impact, 'Arial Narrow Bold';
+    color: #F0A500;
+}
+
+.colorChange {
+    color: #A91D3A;
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@keyframes example {
+    from {
+        color: red;
+    }
+
+    to {
+        color: #b730ac;
+    }
 }
 
 .bgImg {
-    /* background-image: url("bgImg.jpg"); */
-    background-color: rgb(227, 227, 143);
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
-    /* width: 100%; Ensure the container takes full width */
 }
 
 button {
@@ -34,12 +47,15 @@ button {
 }
 
 i {
-    color: #FF4191;
+    color: white;
+}
 
+i:hover {
+    color: red;
 }
 
 .active {
-    color: #FF4191 !important;
+    color: #e93737 !important;
     border-bottom: solid;
 }
 
@@ -47,4 +63,28 @@ h2 {
     font-family: cursive;
     font-style: oblique;
 
+}
+
+ul li {
+    text-shadow: 0px 0px 1px whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.myImg {
+    height: 350px;
+    width: 540px;
+    border-radius: 20%;
+    box-shadow: 0 0 10px 5px grey;
+}
+
+.name::first-letter {
+    font-weight: 900;
+    color: aqua;
 }
